@@ -57,6 +57,35 @@
 
 // ========== CONFIGS ========== //
 
+// ========== MY CONFIG ========== //
+  
+  // ===== DISPLAY ===== //
+  #define SH1106_I2C
+  #define DISPLAY_TEXT "Hardware by N0N4M3"
+  // #define FLIP_DIPLAY true
+
+  #define I2C_ADDR 0x3C
+  #define I2C_SDA 5
+  #define I2C_SCL 4
+
+  // ===== BUTTONS ===== //
+  #define BUTTON_UP 14
+  #define BUTTON_DOWN 12
+  #define BUTTON_A 13
+  #define BUTTON_B 10
+
+  // ===== LED ===== //
+  // #define USE_LED false
+  // #define LED_NEOPIXEL
+  // #define LED_NEOPIXEL_GRB
+  // #define LED_NEOPIXEL_RGB
+
+  // #define LED_NUM 1
+  // #define LED_NEOPIXEL_PIN 9
+  // #define LED_MODE_BRIGHTNESS 10
+
+// ========== MY CONFIG END ========== //
+
 // https://github.com/spacehuhntech/hackheld
 #if defined(HACKHELD_VEGA)
 // ===== LED ===== //
@@ -617,7 +646,6 @@
 #define SETTINGS_ADDR 100
 
 // ======== AVAILABLE SETTINGS ========== //
-
 
 /*
    // ===== ATTACK ===== //
